@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Dark theme (default) — inspired by editor "one dark" syntax palettes,
+     tuned into our own accent set. */
+  --color-bg: #0f1117;
+  --color-surface: #171a21;
+  --color-surface-2: #1d212a;
+  --color-border: #262b36;
+  --color-text: #d6d9e0;
+  --color-text-dim: #7d8394;
+  --color-comment: #5c6370;
+  --color-keyword: #d370eb;
+  --color-string: #7ec699;
+  --color-func: #5aa9e6;
+  --color-const: #e3b559;
+  --color-cursor: #ef6b73;
+}
+
+[data-theme="light"] {
+  --color-bg: #f7f7f5;
+  --color-surface: #ffffff;
+  --color-surface-2: #f0f0ee;
+  --color-border: #e0e0dc;
+  --color-text: #24262b;
+  --color-text-dim: #5b5f6a;
+  --color-comment: #8a8f99;
+  --color-keyword: #a034c2;
+  --color-string: #237a4d;
+  --color-func: #1d6fbf;
+  --color-const: #b3781a;
+  --color-cursor: #d03c46;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+body {
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--color-keyword);
+  color: var(--color-bg);
+}
+
+/* Thin, editor-like scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-dim);
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
