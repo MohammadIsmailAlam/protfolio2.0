@@ -47,7 +47,7 @@ export function ProjectCard({ project }) {
 
         {/* Links */}
         {(repoUrl || liveUrl) && (
-          <div className="mt-auto flex items-center gap-4 border-t border-border pt-4 mt-6 font-mono text-xs">
+          <div className="mt-auto flex items-center gap-4 border-t border-border pt-4 font-mono text-xs">
             {repoUrl && (
               <a
                 href={repoUrl}
