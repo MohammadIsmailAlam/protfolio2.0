@@ -5,6 +5,7 @@ import { useTheme } from "../../context/ThemeContext.jsx";
 import { scrollToId } from "../../lib/scroll.js";
 import { cn } from "../../lib/cn.js";
 import { Container } from "../ui/Container.jsx";
+import profileImage from "../../assets/img/profile.jpeg";
 
 const NAV_IDS = siteConfig.nav.map((item) => item.id);
 
@@ -21,10 +22,13 @@ export function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-border bg-bg/90 backdrop-blur">
       <Container className="flex h-14 items-center justify-between">
         <div className="flex items-center gap-2">
-          <span className="h-2.5 w-2.5 rounded-full bg-cursor/70" />
-          <span className="h-2.5 w-2.5 rounded-full bg-const/70" />
-          <span className="h-2.5 w-2.5 rounded-full bg-string/70" />
-          <span className="ml-2 font-mono text-sm font-medium text-text">
+          <img
+            src={profileImage}
+            alt={siteConfig.personal.name}
+            className="h-8 w-8 rounded-full border border-border object-cover"
+          />
+
+          <span className="font-mono text-sm font-medium text-text">
             {siteConfig.personal.name}
           </span>
         </div>
@@ -39,7 +43,7 @@ export function Navbar() {
                 "rounded-md px-3 py-1.5 font-mono text-xs transition-colors duration-150",
                 activeId === item.id
                   ? "bg-surface-2 text-text"
-                  : "text-dim hover:text-text"
+                  : "text-dim hover:text-text",
               )}
             >
               {item.label}

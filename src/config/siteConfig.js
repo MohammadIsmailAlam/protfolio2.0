@@ -21,6 +21,8 @@ import IMG8 from "../assets/img/Feedback.png";
 import IMG9 from "../assets/img/my-todo.png";
 import IMG10 from "../assets/img/Screenshot From 2026-08-17 14-35-44.png";
 import IMG11 from "../assets/img/Screenshot From 2026-08-17 14-35-55.png";
+import resume from "../assets/Mohammad Ismail Alam.pdf";
+import profileImage from "../assets/img/WhatsApp Image 2026-08-16 at 10.37.47 PM.jpeg";
 
 export const siteConfig = {
   meta: {
@@ -40,7 +42,7 @@ export const siteConfig = {
     ],
     location: "Dhaka, Bangladesh",
     email: "ismailalam901@gmail.com",
-    resumeUrl: "/resume.pdf",
+    resumeUrl: resume,
     available: true,
     bio: "Software engineering graduate with a strong passion for creating high-quality, user-friendly applications. Experienced in web development, working in team environments, utilizing Git and Jira. Eager to contribute to team success while continuously expanding my skill set. I build fast, accessible web applications with React and modern tooling. I care about clean component architecture, readable code, and shipping things that actually work in production — not just in a demo.",
     focus: [
@@ -48,6 +50,7 @@ export const siteConfig = {
       "Writing custom hooks instead of copy-pasting logic",
       "Turning designs into performant, accessible interfaces",
     ],
+    profileImage: profileImage,
   },
 
   socials: [
