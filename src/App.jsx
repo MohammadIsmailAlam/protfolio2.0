@@ -1,6 +1,6 @@
 import { ThemeProvider } from "./context/ThemeContext.jsx";
 import { Layout } from "./components/layout/Layout.jsx";
-import { Hero } from "./components/sections/Hero.jsx";
+import { Intro } from "./components/sections/Intro.jsx";
 import { About } from "./components/sections/About.jsx";
 import { Skills } from "./components/sections/Skills.jsx";
 import { Projects } from "./components/sections/Projects.jsx";
@@ -18,7 +18,7 @@ export default function App() {
   return (
     <ThemeProvider>
       <Layout>
-        <Hero />
+        <Intro />
         <About />
         <Experience />
         <Skills />

@@ -35,13 +35,13 @@ src/
     layout/                # page chrome
       Navbar.jsx  Footer.jsx  Layout.jsx
     sections/              # one file per page section, all data-driven
-      Hero.jsx  About.jsx  Skills.jsx  Projects.jsx  Experience.jsx  Contact.jsx
+      Intro.jsx  About.jsx  Skills.jsx  Projects.jsx  Experience.jsx  Contact.jsx
   App.jsx                  # composition root — wires sections into Layout
   main.jsx                 # ReactDOM entry point
   index.css                # Tailwind + CSS variable theme tokens
 ```
 
-**Why this shape:** every section only knows how to *render* — all copy
+**Why this shape:** every section only knows how to _render_ — all copy
 lives in `siteConfig.js`. Every visual pattern that repeats (a window
 chrome, a tag, a scroll-reveal, an icon link) is a component in `ui/`
 used in multiple places, not re-implemented per section. Cross-cutting
@@ -58,6 +58,7 @@ timeline. That's the only file that needs editing for content changes —
 no component code needs to change.
 
 Optional:
+
 - Drop a real resume PDF at `public/resume.pdf` (matches `resumeUrl` in the config).
 - Replace `public/favicon.svg` with your own mark.
 - Update the `<title>` and `<meta name="description">` in `index.html`.
@@ -95,6 +96,7 @@ npm run preview
 ## 5. Deploy to Vercel
 
 **Option A — Vercel dashboard (recommended for most people)**
+
 1. Push this project to a GitHub repository.
 2. Go to [vercel.com/new](https://vercel.com/new) and import that repo.
 3. Vercel auto-detects Vite. Confirm:
@@ -104,6 +106,7 @@ npm run preview
    automatically; every PR gets its own preview URL.
 
 **Option B — Vercel CLI**
+
 ```bash
 npm i -g vercel
 vercel login
@@ -119,15 +122,15 @@ needed either way.
 
 ## 6. Tech summary
 
-| Concern         | Choice                                    |
-|------------------|--------------------------------------------|
-| Build tool       | Vite                                       |
-| UI library       | React 18                                   |
-| Styling          | Tailwind CSS (+ CSS variables for theming) |
-| Icons            | lucide-react                               |
-| State/persistence| Custom hooks (`useLocalStorage`, `useTheme`) |
-| Animation        | CSS keyframes + `useInView`/`Reveal`        |
-| Hosting          | Vercel                                     |
+| Concern           | Choice                                       |
+| ----------------- | -------------------------------------------- |
+| Build tool        | Vite                                         |
+| UI library        | React 18                                     |
+| Styling           | Tailwind CSS (+ CSS variables for theming)   |
+| Icons             | lucide-react                                 |
+| State/persistence | Custom hooks (`useLocalStorage`, `useTheme`) |
+| Animation         | CSS keyframes + `useInView`/`Reveal`         |
+| Hosting           | Vercel                                       |
 
 No UI framework beyond Tailwind, no unnecessary dependencies — the
 "component library" here is the app's own `components/ui/` folder,
