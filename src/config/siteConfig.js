@@ -215,58 +215,57 @@ export const siteConfig = {
   extraWorks: [
     {
       id: 1,
-      title: "Ollyo Coding Test",
-      img: IMG1,
+      name: "Ollyo Coding Test",
+      image: IMG1,
       stack: [],
       description:
         "Responsive image gallery using React JS with reordering, deleting multiple images, and setting a feature image.",
-      technologies: "React | Tailwind CSS | React Hook Form",
-      link: "https://ollyo-gallery.vercel.app/",
-      github: "https://github.com/MohammadIsmailAlam/ollyo-task",
+      tech: "React | Tailwind CSS | React Hook Form",
+      liveUrl: "https://ollyo-gallery.vercel.app/",
+      repoUrl: "https://github.com/MohammadIsmailAlam/ollyo-task",
     },
 
     {
       id: 2,
-      title: "Mediusware Coding Test",
-      img: IMG2,
+      name: "Mediusware Coding Test",
+      image: IMG2,
       description:
         "Two-part application involving a TODO implementation and API data fetching according to the provided requirements.",
-      technologies:
-        "React | Material UI | Bootstrap | React Router | React Hook Form",
-      link: "https://khuda-lagse.vercel.app/",
-      github: "https://github.com/MohammadIsmailAlam/Mediusware-codingTest",
+      tech: "React | Material UI | Bootstrap | React Router | React Hook Form",
+      liveUrl: "https://khuda-lagse.vercel.app/",
+      repoUrl: "https://github.com/MohammadIsmailAlam/Mediusware-codingTest",
     },
 
     {
       id: 3,
-      title: "Reqile Coding Test",
-      img: IMG3,
+      name: "Reqile Coding Test",
+      image: IMG3,
       description:
         "E-commerce admin interface with cart functionality, including adding and removing items.",
-      technologies: "React | Tailwind CSS",
-      link: "https://reqile-coding-test.vercel.app/",
-      github: "https://github.com/MohammadIsmailAlam/Reqile-Coding-Test",
+      tech: "React | Tailwind CSS",
+      liveUrl: "https://reqile-coding-test.vercel.app/",
+      repoUrl: "https://github.com/MohammadIsmailAlam/Reqile-Coding-Test",
     },
 
     {
       id: 4,
-      title: "Learn With Sumit Coding Test",
-      img: IMG4,
+      name: "Learn With Sumit Coding Test",
+      image: IMG4,
       description: "URL shortening web application.",
-      technologies: "React | React Hooks | Tailwind CSS",
-      link: "https://lws-url-shortener-task.vercel.app/",
-      github: "https://github.com/MohammadIsmailAlam/LWS_url-shortener_task",
+      tech: "React | React Hooks | Tailwind CSS",
+      liveUrl: "https://lws-url-shortener-task.vercel.app/",
+      repoUrl: "https://github.com/MohammadIsmailAlam/LWS_url-shortener_task",
     },
 
     {
       id: 5,
-      title: "Technext Coding Test",
-      img: IMG5,
+      name: "Technext Coding Test",
+      image: IMG5,
       description:
         "Fetched data from an API with search and sorting functionality based on date, success, and failure.",
-      technologies: "React | React Hooks | Context | React State",
-      link: "https://technext-test.vercel.app/",
-      github: "https://github.com/MohammadIsmailAlam/Technext-test",
+      tech: "React | React Hooks | Context | React State",
+      liveUrl: "https://technext-test.vercel.app/",
+      repoUrl: "https://github.com/MohammadIsmailAlam/Technext-test",
     },
   ],
 
