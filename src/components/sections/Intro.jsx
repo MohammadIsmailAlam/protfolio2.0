@@ -1,14 +1,15 @@
-import { ArrowRight, FileDown } from "lucide-react";
+import { useTypewriter } from "@ismailalam/react-utils";
 import { siteConfig } from "../../config/siteConfig.js";
-import { useTypewriter } from "../../hooks/useTypewriter.js";
-import { scrollToId } from "../../lib/scroll.js";
-import { WindowChrome } from "../ui/WindowChrome.jsx";
-import { LineNumbers } from "../ui/LineNumbers.jsx";
-import { CursorBlink } from "../ui/CursorBlink.jsx";
-import { Button } from "../ui/Button.jsx";
-import { IconLink } from "../ui/IconLink.jsx";
-import { Container } from "../ui/Container.jsx";
-import { Reveal } from "../ui/Reveal.jsx";
+import { ArrowRight, FileDown } from "lucide-react";
+import {
+  Button,
+  Container,
+  CursorBlink,
+  IconLink,
+  LineNumbers,
+  Reveal,
+  WindowChrome,
+} from "@ismailalam/ui-components";
 
 /**
  * Intro — the signature moment of the page: a fake "intro.js" file, typed

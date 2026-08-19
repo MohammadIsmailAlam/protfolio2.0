@@ -1,9 +1,11 @@
+import {
+  Container,
+  Reveal,
+  SectionHeading,
+  Tag,
+  WindowChrome,
+} from "@ismailalam/ui-components";
 import { siteConfig } from "../../config/siteConfig.js";
-import { Container } from "../ui/Container.jsx";
-import { SectionHeading } from "../ui/SectionHeading.jsx";
-import { WindowChrome } from "../ui/WindowChrome.jsx";
-import { Tag } from "../ui/Tag.jsx";
-import { Reveal } from "../ui/Reveal.jsx";
 
 const TAG_VARIANTS = ["keyword", "string", "func", "const"];
 
@@ -31,7 +33,10 @@ export function Skills() {
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {group.items.map((item, j) => (
-                    <Tag key={item} variant={TAG_VARIANTS[j % TAG_VARIANTS.length]}>
+                    <Tag
+                      key={item}
+                      variant={TAG_VARIANTS[j % TAG_VARIANTS.length]}
+                    >
                       {item}
                     </Tag>
                   ))}

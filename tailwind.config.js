@@ -1,6 +1,14 @@
+import uiPreset from "@ismailalam/ui-components/tailwind-preset";
+
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  presets: [uiPreset],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx}",
+    "./node_modules/@ismailalam/ui-components/dist/**/*.js",
+  ],
+
   theme: {
     extend: {
       fontFamily: {

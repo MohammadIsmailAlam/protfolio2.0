@@ -1,12 +1,13 @@
+import {
+  Container,
+  ProjectCard,
+  Reveal,
+  SectionHeading,
+} from "@ismailalam/ui-components";
 import { siteConfig } from "../../config/siteConfig.js";
-import { Container } from "../ui/Container.jsx";
-import { SectionHeading } from "../ui/SectionHeading.jsx";
-import { ProjectCard } from "../ui/ProjectCard.jsx";
-import { Reveal } from "../ui/Reveal.jsx";
 
 /**
  * Projects — maps siteConfig.projects to ProjectCard. Adding, removing,
- * or reordering a project is purely a data edit in siteConfig.js.
  */
 export function Projects() {
   return (

@@ -1,7 +1,5 @@
-import { siteConfig } from "../../config/siteConfig.js";
-import { Container } from "../ui/Container.jsx";
-import { CursorBlink } from "../ui/CursorBlink.jsx";
-import { IconLink } from "../ui/IconLink.jsx";
+import { Container, CursorBlink, IconLink } from "@ismailalam/ui-components";
+import { siteConfig } from "../../config/siteConfig";
 
 /**
  * Footer — styled as a terminal prompt. Reuses CursorBlink and IconLink
@@ -27,8 +25,8 @@ export function Footer() {
 
       <Container className="mt-6">
         <p className="font-mono text-xs text-comment">
-          // built with React, Vite & Tailwind CSS · deployed on Vercel ·
-          © {year}
+          // built with React, Vite & Tailwind CSS · deployed on Vercel · ©{" "}
+          {year}
         </p>
       </Container>
     </footer>

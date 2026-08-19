@@ -2,11 +2,12 @@ import { ExternalLink, Github, ChevronDown } from "lucide-react";
 import { useState } from "react";
 
 import { siteConfig } from "../../config/siteConfig.js";
-import { Container } from "../ui/Container.jsx";
-import { SectionHeading } from "../ui/SectionHeading.jsx";
-import { Tag } from "../ui/Tag.jsx";
-import { Reveal } from "../ui/Reveal.jsx";
-import { ProjectCard } from "../ui/ProjectCard.jsx";
+import {
+  Container,
+  ProjectCard,
+  Reveal,
+  SectionHeading,
+} from "@ismailalam/ui-components";
 
 const TAG_VARIANT = {
   react: "func",

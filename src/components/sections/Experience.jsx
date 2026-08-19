@@ -1,8 +1,10 @@
+import {
+  Container,
+  Reveal,
+  SectionHeading,
+  Tag,
+} from "@ismailalam/ui-components";
 import { siteConfig } from "../../config/siteConfig.js";
-import { Container } from "../ui/Container.jsx";
-import { SectionHeading } from "../ui/SectionHeading.jsx";
-import { Tag } from "../ui/Tag.jsx";
-import { Reveal } from "../ui/Reveal.jsx";
 
 const TAG_VARIANT = {
   feat: "string",

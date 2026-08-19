@@ -1,11 +1,14 @@
 import { Mail } from "lucide-react";
 import { siteConfig } from "../../config/siteConfig.js";
-import { Container } from "../ui/Container.jsx";
-import { SectionHeading } from "../ui/SectionHeading.jsx";
-import { WindowChrome } from "../ui/WindowChrome.jsx";
-import { Button } from "../ui/Button.jsx";
-import { CursorBlink } from "../ui/CursorBlink.jsx";
-import { Reveal } from "../ui/Reveal.jsx";
+
+import {
+  Button,
+  Container,
+  CursorBlink,
+  Reveal,
+  SectionHeading,
+  WindowChrome,
+} from "@ismailalam/ui-components";
 
 /**
  * Contact — styled as a terminal session. Keeps to real, working actions

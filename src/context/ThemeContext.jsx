@@ -1,6 +1,5 @@
+import { useLocalStorage } from "@ismailalam/react-utils";
 import { createContext, useContext, useEffect } from "react";
-import { useLocalStorage } from "../hooks/useLocalStorage.js";
-
 const ThemeContext = createContext(null);
 
 function getPreferredTheme() {
@@ -16,7 +15,10 @@ function getPreferredTheme() {
  * onto <html data-theme="..."> so index.css's CSS variables switch.
  */
 export function ThemeProvider({ children }) {
-  const [theme, setTheme] = useLocalStorage("portfolio-theme", getPreferredTheme());
+  const [theme, setTheme] = useLocalStorage(
+    "portfolio-theme",
+    getPreferredTheme(),
+  );
 
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);

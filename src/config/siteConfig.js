@@ -69,9 +69,9 @@ export const siteConfig = {
 
   nav: [
     { id: "about", label: "about.jsx" },
+    { id: "experience", label: "experience.log" },
     { id: "skills", label: "skills.json" },
     { id: "projects", label: "projects.map()" },
-    { id: "experience", label: "experience.log" },
     { id: "contact", label: "contact.sh" },
   ],
 

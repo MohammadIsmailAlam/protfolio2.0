@@ -1,11 +1,9 @@
 import { Moon, Sun } from "lucide-react";
 import { siteConfig } from "../../config/siteConfig.js";
-import { useActiveSection } from "../../hooks/useActiveSection.js";
 import { useTheme } from "../../context/ThemeContext.jsx";
-import { scrollToId } from "../../lib/scroll.js";
-import { cn } from "../../lib/cn.js";
-import { Container } from "../ui/Container.jsx";
 import profileImage from "../../assets/img/profile.jpeg";
+import { cn, scrollToId, useActiveSection } from "@ismailalam/react-utils";
+import { Container } from "@ismailalam/ui-components";
 
 const NAV_IDS = siteConfig.nav.map((item) => item.id);
 
