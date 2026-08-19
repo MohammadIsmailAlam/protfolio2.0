@@ -217,6 +217,7 @@ export const siteConfig = {
       id: 1,
       title: "Ollyo Coding Test",
       img: IMG1,
+      stack: [],
       description:
         "Responsive image gallery using React JS with reordering, deleting multiple images, and setting a feature image.",
       technologies: "React | Tailwind CSS | React Hook Form",

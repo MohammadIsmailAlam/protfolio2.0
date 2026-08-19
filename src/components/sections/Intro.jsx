@@ -1,4 +1,4 @@
-import { useTypewriter } from "@ismailalam/react-utils";
+import { scrollToId, useTypewriter } from "@ismailalam/react-utils";
 import { siteConfig } from "../../config/siteConfig.js";
 import { ArrowRight, FileDown } from "lucide-react";
 import {
