@@ -44,7 +44,7 @@ export const siteConfig = {
     email: "ismailalam901@gmail.com",
     resumeUrl: resume,
     available: true,
-    bio: "Software engineering graduate with a strong passion for creating high-quality, user-friendly applications. Experienced in web development, working in team environments, utilizing Git and Jira. Eager to contribute to team success while continuously expanding my skill set. I build fast, accessible web applications with React and modern tooling. I care about clean component architecture, readable code, and shipping things that actually work in production — not just in a demo.",
+    bio: "Frontend developer specializing in TypeScript, React, with a strong passion for creating high-quality, user-friendly applications. Experienced in building fast, interactive, and responsive interfaces, working in team environments, utilizing Git and Jira. Eager to contribute to team success while continuously expanding my skill set.",
     focus: [
       "Building reusable, component-driven UIs",
       "Writing custom hooks instead of copy-pasting logic",
