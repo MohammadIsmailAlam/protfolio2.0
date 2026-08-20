@@ -7,7 +7,7 @@ import {
   ProjectCard,
   Reveal,
   SectionHeading,
-} from "@ismailalam/ui-components";
+} from "@portf0li0/ui-components";
 
 const TAG_VARIANT = {
   react: "func",

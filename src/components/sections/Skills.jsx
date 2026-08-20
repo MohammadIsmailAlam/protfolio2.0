@@ -4,7 +4,7 @@ import {
   SectionHeading,
   Tag,
   WindowChrome,
-} from "@ismailalam/ui-components";
+} from "@portf0li0/ui-components";
 import { siteConfig } from "../../config/siteConfig.js";
 
 const TAG_VARIANTS = ["keyword", "string", "func", "const"];

@@ -5,7 +5,7 @@ import {
   Reveal,
   SectionHeading,
   WindowChrome,
-} from "@ismailalam/ui-components";
+} from "@portf0li0/ui-components";
 
 /**
  * About — reads bio + focus list from siteConfig.personal.

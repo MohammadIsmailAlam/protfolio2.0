@@ -8,7 +8,7 @@ import {
   Reveal,
   SectionHeading,
   WindowChrome,
-} from "@ismailalam/ui-components";
+} from "@portf0li0/ui-components";
 
 /**
  * Contact — styled as a terminal session. Keeps to real, working actions

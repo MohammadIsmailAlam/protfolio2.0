@@ -4,7 +4,7 @@ import {
   ProjectCard,
   Reveal,
   SectionHeading,
-} from "@ismailalam/ui-components";
+} from "@portf0li0/ui-components";
 
 /**
  * Portfolio — maps siteConfig.soloProjects to ProjectCard.

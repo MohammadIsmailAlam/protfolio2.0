@@ -1,4 +1,4 @@
-import { useLocalStorage } from "@ismailalam/react-utils";
+import { useLocalStorage } from "@portf0li0/react-utils";
 import { createContext, useContext, useEffect } from "react";
 const ThemeContext = createContext(null);
 

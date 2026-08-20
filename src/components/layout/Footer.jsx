@@ -1,4 +1,4 @@
-import { Container, CursorBlink, IconLink } from "@ismailalam/ui-components";
+import { Container, CursorBlink, IconLink } from "@portf0li0/ui-components";
 import { siteConfig } from "../../config/siteConfig";
 
 /**

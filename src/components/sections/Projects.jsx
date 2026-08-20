@@ -3,7 +3,7 @@ import {
   ProjectCard,
   Reveal,
   SectionHeading,
-} from "@ismailalam/ui-components";
+} from "@portf0li0/ui-components";
 import { siteConfig } from "../../config/siteConfig.js";
 
 /**

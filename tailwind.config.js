@@ -1,4 +1,4 @@
-import uiPreset from "@ismailalam/ui-components/tailwind-preset";
+import uiPreset from "@portf0li0/ui-components/tailwind-preset";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -6,7 +6,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,jsx}",
-    "./node_modules/@ismailalam/ui-components/dist/**/*.js",
+    "./node_modules/@portf0li0/ui-components/dist/**/*.js",
   ],
 
   theme: {

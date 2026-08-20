@@ -1,4 +1,4 @@
-import { scrollToId, useTypewriter } from "@ismailalam/react-utils";
+import { scrollToId, useTypewriter } from "@portf0li0/react-utils";
 import { siteConfig } from "../../config/siteConfig.js";
 import { ArrowRight, FileDown } from "lucide-react";
 import {
@@ -9,7 +9,7 @@ import {
   LineNumbers,
   Reveal,
   WindowChrome,
-} from "@ismailalam/ui-components";
+} from "@portf0li0/ui-components";
 
 /**
  * Intro — the signature moment of the page: a fake "intro.js" file, typed
