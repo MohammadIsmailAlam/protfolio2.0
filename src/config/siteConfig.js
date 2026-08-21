@@ -172,7 +172,7 @@ export const siteConfig = {
     {
       id: "proj-1",
       name: "Government Employee Management System, (Gems)",
-      description: `Another project summary. Focus on the outcome and your specific contribution, not just the tech list.
+      description: `GEMS is a centralized digital platform for managing the lifecycle and administrative information of Bangladesh Government employees.
        
       Modules I contributed to and developed:
         • ACR (Annual Confidential Reports)
